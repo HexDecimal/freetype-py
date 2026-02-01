@@ -25,10 +25,10 @@ import platform
 # Needed for the GitHub Actions macOS CI runner, which appears to come without CAs.
 import certifi
 
-FREETYPE_HOST = "https://gitlab.freedesktop.org/freetype/freetype/-/archive/VER-2-13-2/"
-FREETYPE_TARBALL = "freetype-VER-2-13-2.tar.bz2"
+FREETYPE_HOST = "https://download.savannah.gnu.org/releases/freetype/"
+FREETYPE_TARBALL = "freetype-2.13.2.tar.xz"
 FREETYPE_URL = FREETYPE_HOST + FREETYPE_TARBALL
-FREETYPE_SHA256 = "175f39fd796410d136451ce9637f26d359b44258c8a2005682bacb326db80478"
+FREETYPE_SHA256 = "12991c4e55c506dd7f9b765933e62fd2be2e06d421505d7950a132e4f1bb484d"
 HARFBUZZ_HOST = "https://github.com/harfbuzz/harfbuzz/releases/download/8.3.0/"
 HARFBUZZ_TARBALL = "harfbuzz-8.3.0.tar.xz"
 HARFBUZZ_URL = HARFBUZZ_HOST + HARFBUZZ_TARBALL
